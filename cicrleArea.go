@@ -6,7 +6,7 @@ import (
 )
 
 // Declare a constant for pi
-const pi float64 = 3.142
+const PI float64 = 3.142
 
 func main() {
 	//Ask the user for radius of the circle
@@ -15,7 +15,7 @@ func main() {
 	fmt.Scan(&radius)
 
 	// Calculate area of the circle using the constant pi
-	area := pi * math.Pow(radius, 2)
+	area := PI * math.Pow(radius, 2)
 
 	//Display the results
 	fmt.Printf("The area of a circle of radius %.2f is %.2f \n", radius, area)
