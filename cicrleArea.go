@@ -18,5 +18,6 @@ func main() {
 	area := PI * math.Pow(radius, 2)
 
 	//Display the results
+
 	fmt.Printf("The area of a circle of radius %.2f is %.2f \n", radius, area)
 }
